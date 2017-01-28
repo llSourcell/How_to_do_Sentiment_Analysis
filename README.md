@@ -19,7 +19,7 @@ Run ``demo.py`` in terminal and it should start training
 
 ##Challenge
 
-The challenge for this video is to use TFLearn to train a recurrent net, like the one in this example, on [this](https://www.kaggle.com/egrinstein/20-years-of-games) dataset of video game reviews from IGN.com. Then, given some input text it should be able to classify it. You can use [pandas](http://pandas.pydata.org/) to parse this dataset. Right now each review has a label that's either Amazing, Great, Good, Mediocre, painful, or awful. Using the existing labels is *extra credit*. The baseline is that you can just convert the labels so that there are only 2 (positive or negative). 
+The challenge for this video is to use TFLearn to train a recurrent net, like the one in this example, on [this](https://www.kaggle.com/egrinstein/20-years-of-games) dataset of video game reviews from IGN.com. Then, given some new video game title it should be able to classify it. You can use [pandas](http://pandas.pydata.org/) to parse this dataset. Right now each review has a label that's either Amazing, Great, Good, Mediocre, painful, or awful. These are the emotions. Using the existing labels is *extra credit*. The baseline is that you can just convert the labels so that there are only 2 emotions (positive or negative). 
 
 
 ##Credits
